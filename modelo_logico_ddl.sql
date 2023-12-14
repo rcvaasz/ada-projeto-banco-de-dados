@@ -1,10 +1,8 @@
-/* Lógico_1: */
-
 CREATE TABLE cliente (
     codigo_cliente INT PRIMARY KEY,
     nome_cliente VARCHAR(255),
     sobrenome_cliente VARCHAR(255),
-    telefone_cliente VARCHAR(11),
+    telefone_cliente VARCHAR(15),
     municipio_cliente VARCHAR(255),
     codigo_tipo_cliente INT
 );
@@ -36,20 +34,21 @@ CREATE TABLE tipo_produto (
 
 CREATE TABLE tipo_cliente (
     codigo_tipo_cliente INT PRIMARY KEY,
-    tipo_cliente VARCHAR
+    tipo_cliente VARCHAR(255)
 );
  
+ 
 ALTER TABLE cliente ADD CONSTRAINT FK_cliente_2
-    FOREIGN KEY (Campo???, codigo_tipo_cliente)
-    REFERENCES tipo_cliente (???, codigo_tipo_cliente);
+    FOREIGN KEY (codigo_tipo_cliente)
+    REFERENCES tipo_cliente (codigo_tipo_cliente);
  
 ALTER TABLE produto ADD CONSTRAINT FK_produto_2
     FOREIGN KEY (fk_diretor_responsavel_codigo_diretor_responsavel)
     REFERENCES diretor_responsavel (codigo_diretor_responsavel);
  
 ALTER TABLE produto ADD CONSTRAINT FK_produto_3
-    FOREIGN KEY (codigo_tipo_produto???)
-    REFERENCES tipo_produto (???);
+    FOREIGN KEY (codigo_tipo_produto)
+    REFERENCES tipo_produto (tipo_produto);
  
 ALTER TABLE contrato ADD CONSTRAINT FK_contrato_1
     FOREIGN KEY (fk_produto_codigo_produto)
