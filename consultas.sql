@@ -16,7 +16,7 @@ ORDER BY 2, 1;
 
 SELECT id, preco
 FROM produtos
-WHERE preco > (SELECT AVG(preco) FROM produtos);
+HAVING preco > avg(preco)
 
 
 -- 5) Para cada categoria, mostre o preço médio do conjunto de produtos a ela associados.
