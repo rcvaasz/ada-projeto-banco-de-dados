@@ -31,6 +31,12 @@ Todas as etapas foram elaboradas com base no documento 'Projeto_BD01_ADA.pdf', f
    
    b. 'comandos_dml.sql' : Script SQL utilizado para inserir, atualizar e remover dados conforme as etapas especificadas.
 
+Projeto em grupo:
+André Borile
+Caio Alves
+Carlos Henrique Augustin
+Leonildo Linck
+Rafael Vaz
 
 
 _Este projeto foi desenvolvido com base em conceitos aprendidos em aula, visando simplicidade e eficiência. Para eventuais dúvidas ou melhorias, sinta-se à vontade para entrar em contato._
