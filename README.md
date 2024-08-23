@@ -41,4 +41,5 @@ Rafael Vaz.
 
 _Este projeto foi desenvolvido com base em conceitos aprendidos em aula, visando simplicidade e eficiência. Para eventuais dúvidas ou melhorias, sinta-se à vontade para entrar em contato._
 
-
+E-mail: leonildolinck@gmail.com
+E-mail: contatorafaelcvaz@gmail.com
